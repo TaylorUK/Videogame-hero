@@ -5,7 +5,9 @@
 @font-face {
     font-family: 'thewitchermedium';
     src: url('thewitcher-jnoj-webfont.woff2') format('woff2'),
-         url('thewitcher-jnoj-webfont.woff') format('woff');
+         url('thewitcher-jnoj-webfont.woff') format('woff'),
+         url('thewitcher-jnoj-webfont.ttf') format('truetype'),
+         url('thewitcher-jnoj-webfont.svg#thewitchermedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
