@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'thewitchermedium';
+    src: url('thewitcher-jnoj-webfont.woff2') format('woff2'),
+         url('thewitcher-jnoj-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	margin: 0;
+}
+
+header{
+	background-color: #4e3928;
+	background-image: url('leather.jpg');
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header h1{
+	color: #a27c57;
+	font-family: 'thewitchermedium';
+}
