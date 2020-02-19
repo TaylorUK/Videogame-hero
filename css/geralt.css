@@ -17,8 +17,7 @@ header{
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	
 }
 
 header img{
@@ -26,6 +25,7 @@ header img{
 	border-radius: 210px;
 	border: 10px solid #a27c57;
 	box-shadow: 4px 4px 4px #000000;
+	margin: 50px;
 }
 
 h1, h2{
@@ -35,6 +35,7 @@ h1, h2{
     font-style: normal;
    	text-shadow: 2px 2px 2px #000000;
 	color: white;
+	margin: : 0px;
 	}
 
 header h1{
@@ -43,6 +44,23 @@ header h1{
 	text-shadow: 4px 4px 4px #000000;
 	font-weight: normal;
     font-style: normal;
+    margin: 0px;
+}
+
+.powers{
+	font-family: 'thewitchermedium', Arial, sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+    font-style: normal;
+	color: white;
+}
+
+.normal{
+	font-family: 'thewitchermedium', Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+    font-style: normal;
+	color: white;
 }
 
 main{
@@ -53,11 +71,14 @@ main{
 }
 
 main img{
+	border: 10px solid #a27c57;
 	padding: 0;
+	box-shadow: 4px 4px 4px #000000;
     display: block;
     margin: 0 auto;
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 97%;
+    max-width: 97%;
+    
 }
 
 footer{
