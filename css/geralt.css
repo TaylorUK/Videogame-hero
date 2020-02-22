@@ -70,25 +70,35 @@ main{
 	margin: 0 auto;
 }
 
-main img{
+.container{
+	position: relative;
+  	text-align: center;
+  	color: white;
+}
+
+.contimage{
 	padding: 0;
-	border: 10px solid #a27c57;
-	margin-right: 10px;
 	box-shadow: 4px 4px 4px #000000;
     display: block;
-    margin: 0 auto;
+    margin: 0px auto;
     max-height: 100%;
     max-width: 100%;
     
 }
 
+.imgtext{
+	font-family: 'thewitchermedium', Arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+    font-style: normal;
+   	text-shadow: 2px 2px 2px #85929E;
+	color: white;
+	position: absolute;
+  	bottom: 8px;
+  	left: 16px;
+}
+
 footer{
 		padding-top: 10px;
 		padding-bottom: 10px;
-	}
-
-
-
-
-
-
+}
